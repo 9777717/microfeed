@@ -39,7 +39,7 @@
   "devDependencies": {
     "@databases/split-sql-query": "1.0.3",
     "@databases/sql": "3.2.0",
-    "@swc/core": "^1.3.8",
+    "@swc/core": "^1.3.86",
     "@swc/jest": "^0.2.23",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/line-clamp": "^0.4.2",
