@@ -36,9 +36,9 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: 17.0
-          cache: 'npm'
+          node-version: 17.x
+          cache: 'yarn'
       - name: Setup
-        run: npm setup:production
+        run: yarn setup:production
       - name: Deploy to Cloudflare Pages [${{ inputs.DEPLOYMENT_ENVIRONMENT }}]
         run: npm deploy:github
