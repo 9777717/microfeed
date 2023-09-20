@@ -41,4 +41,4 @@ jobs:
       - name: Setup
         run: yarn setup:production
       - name: Deploy to Cloudflare Pages [${{ inputs.DEPLOYMENT_ENVIRONMENT }}]
-        run: npm deploy:github
+        run: yarn deploy:github
