@@ -37,8 +37,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 17.0
-          cache: 'yarn'
+          cache: 'npm'
       - name: Setup
-        run: yarn setup:production
+        run: npm setup:production
       - name: Deploy to Cloudflare Pages [${{ inputs.DEPLOYMENT_ENVIRONMENT }}]
-        run: yarn deploy:github
+        run: npm deploy:github
