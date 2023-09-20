@@ -91,7 +91,7 @@ class WranglerCmd {
       response.on('end', () => {
         const body = JSON.parse(data);
         let databaseId = '';
-        console.log(data,'data-----------------------');
+        console.log(accountId,apiKey,data,'data-----------------------');
         body.result.forEach((result) => {
           if (result.name === dbName) {
             databaseId = result.uuid;
