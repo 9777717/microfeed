@@ -37,6 +37,7 @@ const entry = {
 
   // Admin
   admin_home_js: './ClientAdminHomeApp/index.js',
+  admin_dd_js: './ClientAdminDDDD/index.js',
   edit_item_js: './ClientAdminItemsApp/EditItem/index.js',
   all_items_js: './ClientAdminItemsApp/index.js',
   edit_channel_js: './ClientAdminChannelApp/index.js',

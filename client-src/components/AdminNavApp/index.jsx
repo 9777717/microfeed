@@ -86,9 +86,9 @@ export default class AdminNavApp extends React.Component {
               Icon={HomeIcon}
             />
             <NavItem
-              url={ADMIN_URLS.homeDemo()}
-              title={NAV_ITEMS_DICT[NAV_ITEMS.ADMIN_HOME].name}
-              navId={NAV_ITEMS.ADMIN_HOME}
+              url={ADMIN_URLS.dd()}
+              title={NAV_ITEMS_DICT[NAV_ITEMS.EDIT_DD].name}
+              navId={NAV_ITEMS.EDIT_DD}
               currentId={currentPage}
               Icon={HomeIcon}
             />

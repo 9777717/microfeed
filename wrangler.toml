@@ -1,4 +1,4 @@
 [[ d1_databases ]]
 binding = "FEED_DB"
-database_name = "FEED_DB"
-database_id = "<UUID>"
+database_name = "d1111"
+database_id = "1b9c4300-9496-4e3f-adc0-3289d1305565"
