@@ -233,6 +233,7 @@ const ADMIN_HOME = '/admin';
 
 export const ADMIN_URLS = {
   home: (baseUrl = '/') => urlJoin(baseUrl, `${ADMIN_HOME}/`),
+  homeDemo: () => `${ADMIN_HOME}/demo`,
   editPrimaryChannel: () => `${ADMIN_HOME}/channels/primary/`,
   editItem: (itemId) => `${ADMIN_HOME}/items/${itemId}/`,
   newItem: (baseUrl = '/') => urlJoin(baseUrl, `${ADMIN_HOME}/items/new/`),
