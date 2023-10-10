@@ -1,3 +1,7 @@
+/**
+ * 页面数据文件
+ * ***/ 
+
 export const STATUSES = {
   PUBLISHED: 1,
   UNPUBLISHED: 2,

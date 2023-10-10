@@ -127,6 +127,7 @@ function CodeTabs({codeFile, codeType, themeName, setState}) {
 
 function getFirstItemUrl(feed) {
   const {items} = feed;
+  console.log(items,'feeeeeeeeeeeeeeeeed');
   if (items && items.length > 0) {
     const item = items[0];
     return PUBLIC_URLS.webItem(item.id, item.title || 'Untitled');

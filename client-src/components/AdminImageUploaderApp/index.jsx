@@ -145,6 +145,7 @@ export default class AdminImageUploaderApp extends React.Component {
           currentImageUrl: cdnUrl,
         });
       }, () => {
+        console.log({...this.initState},'logggggggggg');
         showToast('Failed to upload. Please refresh this page and try again.', 'error', 2000);
         this.setState({...this.initState});
       }, (error) => {

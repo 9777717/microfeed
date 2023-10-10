@@ -16,7 +16,7 @@ export function isValidUrl(url) {
 
   return theUrl.protocol === 'http:' || theUrl.protocol === 'https:';
 }
-
+// 生产ID的方法 生成11位 页面id
 export function randomShortUUID(length = 11) {
   const asciiLowercase = 'abcdefghijklmnopqrstuvwxyz';
   const asciiUppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';

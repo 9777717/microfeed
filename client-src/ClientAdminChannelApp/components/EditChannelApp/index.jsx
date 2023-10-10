@@ -301,7 +301,7 @@ export default class EditChannelApp extends React.Component {
                 onClick={this.onSubmit}
                 disabled={submitting || !changed}
               >
-                {submitting ? 'Updating...' : 'Update'}
+                {submitting ? 'Updating...' : 'Update1'}
               </button>
             </div>
             <AdminSideQuickLinks />
